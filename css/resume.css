@@ -1,0 +1,131 @@
+.education_section section{
+	display: inline-block;
+	vertical-align:top;
+
+}
+
+.education_name{
+	width: 33%;
+
+}
+
+.education_name p{
+	margin:0;
+	font-size: 0.75em;
+	font-style: italic
+}
+
+.education_description{
+	width: 60%;
+	padding-left: 2em;
+}
+
+.education_description h4{
+	margin-bottom: 0.5em;
+}
+
+.education_description p{
+	margin: 0;
+}
+
+.abilities_section{
+	width: 50%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.ability{	
+  /*padding-left: 0.5em;*/
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-right: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  margin-right: 2em;
+  	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.ability p{
+
+	display: inline-block;
+	margin: 0;
+}
+
+.ability:hover{
+
+	background-color: rgba(128, 128, 128, 0.1);
+	border-radius: 5px;
+	padding-left: 0.2em;
+	padding-right: 0.7em;
+
+}
+
+.stars{
+	color: rgba(228,68,36,1);
+	/*display: inline-block;*/
+	float: right;
+}
+
+.stars i{
+	padding-right: 0.25em;
+
+}
+
+.work_section section{
+	display: inline-block;
+	vertical-align:top;
+
+}
+
+.work_name{
+	width: 33%;
+
+}
+
+.work_name p{
+	margin:0;
+	font-size: 0.75em;
+	font-style: italic
+}
+
+.work_description{
+	width: 60%;
+	padding-left: 2em;
+}
+
+.work_description h4{
+	margin-bottom: 0.5em;
+}
+
+.work_description p{
+	margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.education_name{
+		width: 100%% ;
+
+	}
+
+	.education_description{
+		width: 100%% ;
+		padding-left: 0em;
+		text-align: justify;
+	}
+	
+	.abilities_section{
+		width: 100%;
+	}
+
+	.work_name{
+		width: 100%%;
+	}
+
+	.work_description{
+		width: 100%%;
+		padding-left: 0em;
+		text-align: justify;
+	}
+}

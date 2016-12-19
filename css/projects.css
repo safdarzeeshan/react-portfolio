@@ -1,0 +1,47 @@
+.display_section.projects h2{
+	margin-bottom: 0.5em;
+}
+
+.project_description{
+	width: 60%;
+	display: inline-block; 
+	margin-right: 3em; 
+}
+
+.project_description p{
+	margin: 0;
+}
+
+.project_image{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	vertical-align:top;
+}
+
+
+.project_image:hover{
+	cursor: hand;
+}
+
+.project_image img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) {
+	.project_description{
+		width: 100%%;
+		margin-right: 3em; 
+	}
+
+	.project_image{
+		padding-top: 0.5em;
+		width: 70%;
+		height: auto;
+		display: inline-block;
+		margin: 0 auto;
+
+	}
+
+}

@@ -1,0 +1,13 @@
+	    <div className='video'>
+		      <video autoPlay poster="/media/video.png" id="bgvid">
+		        <source src="/css/media/name.mp4" type="video/mp4" />
+		      </video>
+		    </div>
+
+            <div className='video'>
+                <div className='backgroundImg'>
+                    <img src='css/media/background.png'/>
+                </div>
+                <div className='backgroundButton' onClick={this.screenUp}>Show Me More</div>
+            </div>
+

@@ -1,0 +1,14 @@
+.photo{
+	display: inline-block;
+	margin: 0.1em;
+}
+
+.photo img{
+	border-radius: 2px;
+	height: 10em;
+	width: auto;
+}
+
+.photos_heading{
+	margin-bottom: 1em;	
+}
